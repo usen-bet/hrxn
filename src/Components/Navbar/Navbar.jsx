@@ -24,11 +24,11 @@ function Navbar() {
         <AiOutlineShoppingCart className="icon" />
         <IoMdHeartEmpty className="icon" />
         </div>
-        <button onClick={toggle} className={unclick ? " hamburger" : "active"}>
+        <div onClick={toggle} className={unclick ? " hamburger" : "active"}>
           <div className={unclick ? "ham-top " : "one"}></div>
           <div className={unclick ? "ham-mid white" : "white two"}></div>
           <div className={unclick ? "ham-bottom" : "three"}></div>
-        </button>
+        </div>
     </div>
   )
 }

@@ -21,6 +21,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 body {
@@ -115,6 +116,8 @@ p {
   background-color: black;
   padding: 10px;
   transition: all 0.3s ease;
+  border: none;
+  border-radius: 10px;
 }
 
 .btn:hover {
